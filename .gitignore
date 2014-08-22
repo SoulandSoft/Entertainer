@@ -23,3 +23,5 @@ local.properties
 proguard/
 #i Idea files
 .idea
+.iml
+project.properties
