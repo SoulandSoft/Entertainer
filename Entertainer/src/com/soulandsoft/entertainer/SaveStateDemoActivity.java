@@ -155,6 +155,7 @@ public class SaveStateDemoActivity extends FragmentActivity {
         public void onResume() {
             super.onResume();
             setUpMapIfNeeded();
+            mMap.setMyLocationEnabled(true);
         }
 
         @Override
